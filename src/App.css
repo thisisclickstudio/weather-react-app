@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body{
+  background-color: antiquewhite;
+} */
+
+.App {
+  margin: 2rem auto;
+  width: 1400px;
+  height: 500px;
+  background-image: url('img/app.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+.App:hover{
+  box-shadow: 3px 3px 20px rgba(0,0,0,0.5);
+}
+
+.App.hot{
+  background-image: linear-gradient(to bottom,
+  rgba(133, 90, 17, 0.52),
+  rgba(0,0,0,0.75)),
+  url("img/hot.jpg");
+  background-repeat: no-repeat;
+}
+
+.App.cold{
+  background-image: linear-gradient(to bottom,
+  rgba(0, 229,255,0.52),
+  rgba(0,0,0,0.75)),
+  url("img/cold.jpg");
+  background-repeat: no-repeat;
+}
+main{
+  min-height: 100vh;
+  padding: 25px;
+}
+.location-container{
+  padding-top: 15px;
+  padding-left: 4rem;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+.location-container .date{
+ color:white;
+ font-size: 20px;
+}
+.weather-container {
+  text-align: left;
+  padding: 3rem;
+  
+}
+.weather-container .temperature{
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin-top: 100px;
+  
+  /* padding: 15px 25px; */
+  font-size: 100px;
+  padding-left: 5rem;
+  font-weight: bold;
+ text-align: left;
+}
+.set-icon{
+  position: relative;
+  display: inline-block;
+  
+}
+
+.weather-container .weather {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  padding-left: 13rem;
+ 
+
+}
+
+.page{
+  height: 100%;
+  margin: 5rem auto;
+}
+
+.card-container{
+  background-color: rgba(156, 141,208,255);
+  margin: auto;
+  width: 1500px;
+  height: 100%;
+  padding: 50px;
+  transition: 0.2s ease;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+.card-today{
+  height: 500px;
+}
+
+.forecast-header{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.img-color{
+  color: white;
+  border: 1rem;
+}
+
+
