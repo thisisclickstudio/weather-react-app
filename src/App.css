@@ -9,6 +9,8 @@
 
 .App {
   margin: 2rem auto;
+  width: 1400px;
+  height: 500px;
   background-image: url('img/app.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +25,7 @@
 
 .App.hot{
   background-image: linear-gradient(to bottom,
-  rgba(255, 167,16,0.52),
+  rgba(133, 90, 17, 0.52),
   rgba(0,0,0,0.75)),
   url("img/hot.jpg");
   background-repeat: no-repeat;
@@ -41,6 +43,8 @@ main{
   padding: 25px;
 }
 .location-container{
+  padding-top: 15px;
+  padding-left: 4rem;
   color: white;
   font-size: 30px;
   text-align: left;
@@ -51,27 +55,35 @@ main{
  font-size: 20px;
 }
 .weather-container {
-  text-align: center;
+  text-align: left;
+  padding: 3rem;
+  
 }
 .weather-container .temperature{
   color: white;
   position: relative;
   display: inline-block;
-  margin: 30px auto;
-  padding: 15px 25px;
+  margin-top: 100px;
+  
+  /* padding: 15px 25px; */
   font-size: 100px;
+  padding-left: 5rem;
   font-weight: bold;
-  border: 2px solid white;
-  border-radius: 5px;
-  text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+ text-align: left;
+}
+.set-icon{
+  position: relative;
+  display: inline-block;
+  
 }
 
 .weather-container .weather {
   color: white;
   font-size: 50px;
-  font-weight: bold;
-  text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  font-weight: 400;
+  padding-left: 13rem;
+ 
+
 }
 
 .page{
@@ -80,12 +92,13 @@ main{
 }
 
 .card-container{
+  background-color: rgba(156, 141,208,255);
   margin: auto;
   width: 1500px;
   height: 100%;
   padding: 50px;
   transition: 0.2s ease;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
 
@@ -96,5 +109,12 @@ main{
 .forecast-header{
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
+.img-color{
+  color: white;
+  border: 1rem;
+}
+
+
