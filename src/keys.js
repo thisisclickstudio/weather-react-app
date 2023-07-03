@@ -3,5 +3,5 @@ module.exports ={
     BASE_URL: "https://api.openweathermap.org/data/2.5/",
     LAT: "13.7524938",
     LON: "100.4935089",
-    COUNTRY: "Bangkok"
+    COUNTRY: "Chiang rai"
 }
